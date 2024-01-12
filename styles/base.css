@@ -1,3 +1,9 @@
+/*Bugs I've noticed
+-the footer is not quite centered with the rest of the page
+-the images are too large for my liking
+-fix order of CSS file (I put it in alphabetical, but I want to change it to the order it appears in HTML) 
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Handlee&family=Nanum+Myeongjo&family=Playpen+Sans:wght@300&family=Silkscreen&family=Tektur&display=swap');
 
 body { 
@@ -7,4 +13,34 @@ body {
 
 }
 
+/*I'm mostly playing around because I didn't want to rewrite the same code over and over*/
+footer,h2,header,nav,section { 
 
+    display:grid;
+    place-items: center; /*What other codes can work with place-items? Changing "Center" to "right" or "left" doesn't do anything*/
+
+
+}
+footer {
+    background-color: brown;
+    
+}
+
+header {
+    background-color:aliceblue;
+    display:grid;
+    place-items: center;
+
+}
+ 
+/*the mixed colors need to be changed later, but for now I'm putting each section in different colors to see what sections change until I understand how the css works */
+
+nav { 
+    background-color: aqua;
+    
+}
+
+main {
+    Background-color: purple;
+    display: grid
+}

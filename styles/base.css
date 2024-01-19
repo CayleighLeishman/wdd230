@@ -46,8 +46,9 @@ main {
 }
 footer {
     background-color: #8B008B;
-    
+    color:floralwhite; 
 }
+
 /*I'm mostly playing around because I didn't want to rewrite the same code over and over*/
 footer,h2,header,nav,main,section { 
 

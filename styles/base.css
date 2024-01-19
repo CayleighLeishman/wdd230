@@ -9,6 +9,8 @@
 
 
 header {
+    display:grid;
+    /*place-items: ;  ->figure out how to change the grid layout */
     background-color:FLORALWHITE;
     display:grid;
     place-items: center;

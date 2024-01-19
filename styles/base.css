@@ -17,17 +17,29 @@ header {
  
 /*the mixed colors need to be changed later, but for now I'm putting each section in different colors to see what sections change until I understand how the css works */
 
-nav { 
-    background-color: #8B008B;
-    
-}
+
 body { 
     
     font-family:'tektur', 'playpen+sans', 'silksreen', 'Nanum+Myeongjo', sans-serif;
+    color: black;
     background-color: #8B008B ;
 
 }
 
+nav { 
+    background-color: #8B008B;
+    color:floralwhite;
+    
+}
+
+nav a { 
+    color: floralwhite;
+}
+
+nav a:hover{
+    color:#f028f0;
+
+}
 main {
     Background-color: floralwhite;
 

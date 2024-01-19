@@ -14,6 +14,11 @@ header {
     place-items: center;
 
 }
+
+img { 
+    padding: 10px;
+    width: 150px;
+}
  
 /*the mixed colors need to be changed later, but for now I'm putting each section in different colors to see what sections change until I understand how the css works */
 

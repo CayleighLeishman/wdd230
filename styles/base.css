@@ -1,9 +1,9 @@
-/*Bugs I've noticed
--the footer is not quite centered with the rest of the page
--the images are too large for my liking
--fix order of CSS file (I put it in alphabetical, but I want to change it to the order it appears in HTML)]
-- change background to FLORALWHITE color and text to dark mangeta (purple) maybe (BASICALLY JUST CHANGE THE COLOR)
-*/
+/*Bugs I've noticed:
+-the header has the image and text under each other, I need to make it side by side
+-fix order of CSS file (Some things seem out of order to me)
+
+ADVANCED/IF EXTRA TIME:
+-the colors hurt my eyes. I'm still commited to this coloring but I want to see if I can make the website accessibility feature that allows the website to change color*/
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Handlee&family=Nanum+Myeongjo&family=Playpen+Sans:wght@300&family=Silkscreen&family=Tektur&display=swap');
 
@@ -16,14 +16,20 @@ header {
     place-items: center;
 
 }
+/* HEADER IMG AND HEADER H1 HELP FROM PROFESSOR
+  margin: 20px;
+border-radius: 20px 0; */
+header img{ 
+    border-radius: 85px;
+}
+header h1 {
+    text-align: center;
+}
 
 img { 
     padding: 10px;
     width: 150px;
 }
- 
-/*the mixed colors need to be changed later, but for now I'm putting each section in different colors to see what sections change until I understand how the css works */
-
 
 body { 
     

@@ -1,12 +1,4 @@
-/*Bugs I've noticed:
--the header has the image and text under each other, I need to make it side by side
--fix order of CSS file (Some things seem out of order)
-
-ADVANCED/IF EXTRA TIME:
--the colors hurt my eyes. I'm still commited to this coloring but I want to see if I can make the website accessibility feature that allows the website to change color*/
-
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Handlee&family=Nanum+Myeongjo&family=Playpen+Sans:wght@300&family=Silkscreen&family=Tektur&display=swap');
-
 
 header {
     /*place-items: ;  ->figure out how to change the grid layout */

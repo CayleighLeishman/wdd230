@@ -56,20 +56,22 @@ main {
     Background-color: floralwhite;
 
 }
-/*COPIED FROM PROFESSORS CSS:
- .card {
-    background-color: #fffcf2;
-    margin: 0 0 16px 0;
-    padding: 0 16px;
-    border-radius: 10px;
-} */
+
 .card {
     background-color: #f028f0;
     margin:  0 0 55px 0;
     padding: 16px;
     border-radius: 16px;
-
+    
 }
+.card a{
+    color:black;
+}
+
+.card a:hover{
+    color:floralwhite;
+}
+
 footer {
     background-color: #8B008B;
     color:floralwhite; 

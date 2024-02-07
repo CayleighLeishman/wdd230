@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <!-- was told to put this following code in the head of my html page, but don't know where to put my FAVICON folder. At the time I'm typing this I moved it to the image folder.-->
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
@@ -17,9 +16,10 @@
 
     <link rel="stylesheet" href="styles/normalization.css">
     <link rel="stylesheet" href="styles/base.css">
-    <script src="scripts/getdate.js" defer></script>
-    
+    <link rel="stylesheet" href="styles/larger.css">
 
+    <script src="scripts/getdate.js" defer></script>
+    <script src="scripts/menu.js" defer></script>
 </head>
 
 <body>
@@ -29,12 +29,16 @@
     </header>
 
     <nav>
-        <a href = 'index.html'>Home</a>
-        <a href = 'lesson03/chamber-site-plan.html'>chamber</a>
-        <a href = 'chamber/'>Site-Plan</a>
-        <a href = 'https://www.byui.edu/'>BYU-Idaho</a>
-        <a href = 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/8?lang=eng&id=p12#p12'>John 18:12</a>  <!--put in your favourite scripture--> 
-
+        <a href="#" id="menu"></a>
+        <ul>
+            <li> 
+                <a href = 'index.html'>Home</a>
+                <a href = 'lesson03/chamber-site-plan.html'>chamber</a>
+                <a href = 'chamber/'>Site-Plan</a>
+                <a href = 'https://www.byui.edu/'>BYU-Idaho</a>
+                <a href = 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/8?lang=eng&id=p12#p12'>John 18:12</a>  <!--put in your favourite scripture--> 
+            </li>
+       </ul>
     </nav>
 
 
@@ -42,7 +46,7 @@
         <h2>WDD 230: Web Frontend Development</h2>
 
         <!-- Looked to professors website for help on section-->
-        <section class="card">
+        <section class="card firstcard">
             <h3>Learning Activities</h3>
             <a href = "lesson01.html"> Lesson01</a>
             <a href = "lesson02.html"> Lesson02</a>
@@ -54,7 +58,7 @@
             </ul>
         </section>
 
-        <section class="card">
+        <section class="card secondcard" >
             <h3>Information</h3>
             <p> Rexburg</p>
             <p>visits to page</p>

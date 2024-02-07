@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Handlee&family=Nanum+Myeongjo&family=Playpen+Sans:wght@300&family=Silkscreen&family=Tektur&display=swap');
 /* comment */
-
+* {
+    box-sizing: border-box;
+}
 header {
     /*place-items: ;  ->figure out how to change the grid layout */
     background-color:FLORALWHITE;
@@ -27,9 +29,33 @@ body {
     
     font-family:'tektur', 'playpen+sans', 'silksreen', 'Nanum+Myeongjo', sans-serif;
     color: black;
-    background-color: #8B008B ;
+    background-color: floralwhite;
 
 }
+
+/* assistance from professors site */
+#menu{
+    position:absolute;
+    /* fix in a minute */
+    top:1rem; 
+    display: block;
+    background-color: aqua;
+    border-radius: 0 0 0 10px;
+    padding: .5 rem;
+}
+
+#menu::before{
+    content:"≡";
+    font-size:2rem;
+    padding:1rem;
+}
+
+/* what does the .show do? */
+.show #menu::before{
+    content:"x";
+
+}
+
 
 nav { 
     background-color: #8B008B;
@@ -46,12 +72,16 @@ nav a:hover{
 }
 main {
     Background-color: floralwhite;
+    max-width: 800px;
+    margin: 50px auto;
+
 
 }
 
 .card {
     background-color: #f028f0;
-    margin:  0 0 55px 0;
+   
+    width: 100%;
     padding: 16px;
     border-radius: 16px;
     

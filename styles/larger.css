@@ -1,0 +1,27 @@
+@media screen and (min-width:800px){
+    
+    nav {
+        display: flex;
+        gap:10px;
+        justify-content: center;
+        padding: 25px;
+    }
+
+    main{
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+
+    }
+
+    .secondcard{
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+   .firstcard{
+        grid-column:1/2;
+        grid-row:2/3;
+   }
+}

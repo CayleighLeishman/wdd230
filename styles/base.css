@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Handlee&family=Nanum+Myeongjo&family=Playpen+Sans:wght@300&family=Silkscreen&family=Tektur&display=swap');
-/* comment */
+
 * {
     box-sizing: border-box;
 }
 header {
-    /*place-items: ;  ->figure out how to change the grid layout */
     background-color:FLORALWHITE;
     display:grid;
     place-items: center;
 
 }
-/* HEADER IMG AND HEADER H1 HELP FROM PROFESSOR
-  margin: 20px;
-border-radius: 20px 0; */
+
 header img{ 
     border-radius: 85px;
 }
@@ -36,7 +33,6 @@ body {
 /* assistance from professors site */
 #menu{
     position:absolute;
-    /* fix in a minute */
     top:1rem; 
     display: block;
     background-color: aqua;
@@ -55,7 +51,6 @@ body {
     content:"x";
 
 }
-
 
 nav { 
     background-color: #8B008B;
@@ -80,7 +75,6 @@ main {
 
 .card {
     background-color: #f028f0;
-   
     width: 100%;
     padding: 16px;
     border-radius: 16px;
@@ -99,11 +93,10 @@ footer {
     color:floralwhite; 
 }
 
-/*I'm mostly playing around because I didn't want to rewrite the same code over and over*/
 footer,h2,header,nav,main,section { 
 
     display:grid;
-    place-items: center; /*What other codes can work with place-items? Changing "Center" to "right" or "left" doesn't do anything*/
+    place-items: center;
 
 
 }

@@ -1,5 +1,4 @@
-// typed code but copied most from assingment.
-
+// typed code but most was from assingment.
 
 const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
@@ -9,20 +8,20 @@ const list = document.querySelector('list');
 //Tried using this for help: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_addeventlistener2
 
 button.addEventListener('click', function() { 
-    document.getElementById("#favchapt")
-    input.favchapt; 
+    document.getElementById('#favchapt')
+    input.favchapt(); 
 })
 
 if (input.value != '')
 {   
-    document.getElementById("Please input something")
+    message.innerHTML("Please input something")
 }
 
 const li = document.createElement('li');
 
-const deleteButton =document.createElement('button');
+const deleteButton = document.createElement('button');
 
-li.textContent = input.value;
+li.textContent = input.value();
 
 // coppied the X from assingment
 deleteButton.textContent = '❌'

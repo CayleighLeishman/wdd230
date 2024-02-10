@@ -1,6 +1,6 @@
 const input = document.querySelector("#favchap");
 const button = document.querySelector("button");
-const list = document.querySelector("list"); 
+const list = document.querySelector("#list"); 
 
 // figure out the code you're missing
 //Tried using this for help: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_addeventlistener2

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Handlee&family=Nanum+Myeongjo&family=Playpen+Sans:wght@300&family=Silkscreen&family=Tektur&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color:FLORALWHITE;
+    display:grid;
+    place-items: center;
+
+}
+
+header img{ 
+    border-radius: 85px;
+}
+header h1 {
+    text-align: center;
+}
+
+img { 
+    padding: 10px;
+    width: 150px;
+}
+
+body { 
+    
+    font-family:'tektur', 'playpen+sans', 'silksreen', 'Nanum+Myeongjo', sans-serif;
+    color: black;
+    background-color: floralwhite;
+
+}
+
+/* assistance from professors site */
+#menu{
+    position:absolute;
+    top:1rem; 
+    display: block;
+    background-color: aqua;
+    border-radius: 0 0 0 10px;
+    padding: .5rem;
+}
+
+#menu::before{
+    content:"≡";
+    font-size:2rem;
+    padding:1rem;
+}
+
+/* what does the .show do? */
+.show #menu::before{
+    content:"x";
+
+}
+
+nav { 
+    background-color: #8B008B;
+    color:floralwhite;
+    
+}
+
+nav a { 
+    color: floralwhite;
+}
+
+nav a:hover{
+    color:#f028f0;
+}
+main {
+    Background-color: floralwhite;
+    max-width: 800px;
+    margin: 50px auto;
+
+
+}
+
+.card {
+    background-color: #f028f0;
+    width: 100%;
+    padding: 16px;
+    border-radius: 16px;
+    
+}
+.card a{
+    color:black;
+}
+
+.card a:hover{
+    color:floralwhite;
+}
+
+footer {
+    background-color: #8B008B;
+    color:floralwhite; 
+}
+
+footer,h2,header,nav,main,section { 
+
+    display:grid;
+    place-items: center;
+
+
+}

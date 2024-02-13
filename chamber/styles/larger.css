@@ -15,13 +15,9 @@
 
     }
 
-    .secondcard{
+    #current_events{
         grid-column: 2/3;
         grid-row: 2/3;
     }
 
-   .firstcard{
-        grid-column:1/2;
-        grid-row:2/3;
-   }
 }

@@ -46,7 +46,6 @@ body {
     padding:1rem;
 }
 
-/* what does the .show do? */
 .show #menu::before{
     content:"x";
 
@@ -65,13 +64,28 @@ nav a {
 nav a:hover{
     color:#f028f0;
 }
+
 main {
     Background-color: floralwhite;
     max-width: 800px;
     margin: 50px auto;
+    /* grid-template-columns: ; */
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+}
 
+/* used w3schools for help */
+.hero-image{
+
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
 
 }
+
 
 .card {
     background-color: #f028f0;
@@ -96,7 +110,10 @@ footer {
 footer,h2,header,nav,main,section { 
 
     display:grid;
-    place-items: center;
+    /* this was center before I change dit to absolute */
+    place-items: absolute;
 
 
 }
+
+

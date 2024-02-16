@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
 }
+
 header {
     background-color:FLORALWHITE;
     display:grid;
@@ -13,6 +14,7 @@ header {
 header img{ 
     border-radius: 85px;
 }
+
 header h1 {
     text-align: center;
 }
@@ -48,13 +50,11 @@ body {
 
 .show #menu::before{
     content:"x";
-
 }
 
 nav { 
     background-color: #8B008B;
     color:floralwhite;
-    
 }
 
 nav a { 
@@ -76,16 +76,27 @@ main {
 }
 
 /* used w3schools for help */
-.hero-image{
-
+.hero-image {
+   
     height:100%;
     background-position: center;
+    position: absolute;
+    left: 45.5%;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; 
+    
 
 }
 
+/* copied from w3schools */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translate(-50%, -50%);
+    color: #8B008B;
+}
 
 .card {
     background-color: #f028f0;
@@ -102,12 +113,12 @@ main {
     color:floralwhite;
 }
 
-footer {
+footer{
     background-color: #8B008B;
     color:floralwhite; 
 }
 
-footer,h2,header,nav,main,section { 
+footer,h2,header,nav,main,section{ 
 
     display:grid;
     /* this was center before I change dit to absolute */
